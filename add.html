@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品增加  |PERFUME TOWN</title>
+<style type="text/css">
+.class1{
+			    width:100%;
+				height:100px;
+				
+			}
+body{
+ text-align:center;
+ width:100%;heigth:100%;
+ backgroud-image:url('picture/b1.jpg') ;
+ background-repeat:no-repeat;
+ background-size:top center;
+ background-size:cover;
+ }
+ .class0{
+			    width:100%;
+				height:1700px;
+				background:#f6f5ec;
+				
+			}
+			input{
+                border: 2px solid #ccc;
+                padding: 7px 0px;
+                border-radius: 5px;
+                padding-left:5px;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+                -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+                transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+            }
+            input:focus{
+                    border-color: #7d5886;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
+            
+</style>
+</head>
+<body >
+<form action="add.do" >
+<br>
+<div class="class0" align="center" >
+<div><img src='picture/5.png' alt= "" width="40%"></div><hr /><br>
+	<div class="class1" style="text-align:center;" ><font size=6rem; color=grey>请输入你要增加的商品信息：</font></div>
+<div style="text-align:center;">
+<font size=4rem; color=#472d56>商品ID:</font><input name="id" ><br><br>
+<font size=4rem; color=#472d56>商品名称:</font><input name="name"><br><br>
+<font size=4rem; color=#472d56>商品描述:</font><input name="desc"><br><br>
+<font size=4rem; color=#472d56>商品价格:</font><input name="price"><br><br>
+<font size=4rem; color=#472d56>商品图片:</font><input name="image"><br><br>
+<font size=4rem; color=#472d56>商品品牌:</font><input name="brand"><br><br>
+
+<input type="submit" value="添加新商品" ></div>
+<br><br><div style="text-align:center;" ><a href="function.jsp">返回</a></div><br>
+</div>
+</form>
+</body>
+</html>
